@@ -1,4 +1,4 @@
-![image](https://github.com/Aravindhnath/G2_DBMS/assets/118790841/0f35491b-9c03-45aa-b28b-7a30375a9bb1)# EXP NO 1: DATA DEFINITION LANGUGE COMMANDS IN RDBMS
+# EXP NO 1: DATA DEFINITION LANGUGE COMMANDS IN RDBM
 
 ## AIM:
 
@@ -21,44 +21,44 @@ RENAME: This is used to rename an object existing in the database.
 ## Query:
 
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
-### SQL QUERY: 
+#### SQL QUERY: 
 ```sql
 SQL> CREATE TABLE student(roll_no int, name varchar(20), age number,
 address varchar(100), phoneno number(10));
 ```
-### OUTPUT:
+#### OUTPUT:
 ![](/exp1_DBMS-1.png)
 
 ### 2) Change the above student table by adding another attribute department
-### SQL QUERY: 
+#### SQL QUERY: 
 ```sql
 SQL> ALTER TABLE student ADD dept varchar(10);
 ```
-### OUTPUT:
+#### OUTPUT:
 ![](/exp1_DBMS-2.png)
 
 ### 3) Drop the student table
-### SQL QUERY: 
+#### SQL QUERY: 
 ```sql
 SQL> DROP TABLE student;
 ```
-### OUTPUT:
+#### OUTPUT:
 ![](/exp1_DBMS-3.png)
 
 ### 4) Delete the student table using truncate keyword
-### SQL QUERY: 
+#### SQL QUERY: 
 ```sql
 SQL> TRUNCATE TABLE student;
 ```
-### OUTPUT:
+#### OUTPUT:
 ![](/exp1_DBMS-4.png)
 
 ### 5) Rename the student table to mystudent
-### SQL QUERY: 
+#### SQL QUERY: 
 ```sql
 SQL> ALTER TABLE student1 RENAME TO mystudent;
 ```
-### OUTPUT:
+#### OUTPUT:
 ![](/exp1_DBMS-5.png)
 
 ## RESULT:
