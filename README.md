@@ -56,7 +56,7 @@ SQL> TRUNCATE TABLE student;
 ### 5) Rename the student table to mystudent
 #### SQL QUERY: 
 ```sql
-SQL> ALTER TABLE student1 RENAME TO mystudent;
+SQL> ALTER TABLE student RENAME TO mystudent;
 ```
 #### OUTPUT:
 ![](/exp1_DBMS-5.png)
