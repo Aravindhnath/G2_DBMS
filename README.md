@@ -31,7 +31,7 @@ address varchar(100), phoneno number(10));
 
 ### 2) Change the above student table by adding another attribute department
 #### SQL QUERY: 
-```sql
+```mysql
 SQL> ALTER TABLE student ADD dept varchar(10);
 ```
 #### OUTPUT:
